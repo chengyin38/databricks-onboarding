@@ -45,11 +45,12 @@
 # COMMAND ----------
 
 # MAGIC %pip install mlflow==2.4
+# MAGIC dbutils.library.restartPython()
 
 # COMMAND ----------
 
-# MAGIC %pip install "mlflow-skinny[databricks]>=2.4.1"
-# MAGIC dbutils.library.restartPython()
+import mlflow
+mlflow.__version__
 
 # COMMAND ----------
 

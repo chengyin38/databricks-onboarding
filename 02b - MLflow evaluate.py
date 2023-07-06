@@ -13,7 +13,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 
-os.environ["OPENAI_API_KEY"] = dbutils.secrets.get("llm_scope", "openai_token")
+os.environ["OPENAI_API_KEY"] = dbutils.secrets.get("llm_scope", "openai_token") # This is personal token 
 
 assert (
     "OPENAI_API_KEY" in os.environ

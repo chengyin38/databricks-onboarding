@@ -32,7 +32,7 @@
 # MAGIC
 # MAGIC The first thing we're going to do is to **run setup script**. This script will define the required configuration variables that are scoped to each user.
 # MAGIC
-# MAGIC Expected ML Runtime = 13.2 ML
+# MAGIC Expected ML Runtime = 13.1 ML
 
 # COMMAND ----------
 
