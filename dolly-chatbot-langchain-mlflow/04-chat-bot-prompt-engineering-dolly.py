@@ -259,3 +259,9 @@ def load_model_and_answer(similar_docs, question):
 # MAGIC model = ORTModelForCausalLM.from_pretrained("databricks/dolly-v2-3b", export=True, provider="CUDAExecutionProvider")
 # MAGIC ```
 # MAGIC *You could also leverage FasterTransformer. Contact your Databricks team for more details*
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC testing
+# MAGIC
