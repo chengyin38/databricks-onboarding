@@ -71,8 +71,8 @@ course_config = CourseConfig(course_code = "sml",
                              install_min_time = "2 min",
                              install_max_time = "5 min",
                              remote_files = remote_files,
-                             supported_dbrs = ["13.2.x-cpu-ml-scala2.12"],
-                             expected_dbrs = "13.2.x-cpu-ml-scala2.12")
+                             supported_dbrs = ["13.1.x-cpu-ml-scala2.12"],
+                             expected_dbrs = "13.1.x-cpu-ml-scala2.12")
 
 lesson_config = LessonConfig(name = None,
                              create_schema = True,
