@@ -227,10 +227,6 @@ with mlflow.start_run(run_name="LR-Log-Price") as run:
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
 # DBTITLE 0,--i18n-0b1a68e1-bd5d-4f78-a452-90c7ebcdef39
 # MAGIC %md 
 # MAGIC

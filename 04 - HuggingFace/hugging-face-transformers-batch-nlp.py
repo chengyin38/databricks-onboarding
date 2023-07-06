@@ -170,4 +170,4 @@ summaries.write.saveAsTable(f"{output_schema}.{output_table}", mode="overwrite")
 
 # COMMAND ----------
 
-spark.sql(f"DROP TABLE {output_schema}.{output_table}")
+# spark.sql(f"DROP TABLE {output_schema}.{output_table}")
