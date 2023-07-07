@@ -49,11 +49,6 @@
 
 # COMMAND ----------
 
-import mlflow
-mlflow.__version__
-
-# COMMAND ----------
-
 # MAGIC %md ## Prepare data
 
 # COMMAND ----------

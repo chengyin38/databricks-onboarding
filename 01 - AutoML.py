@@ -31,7 +31,7 @@
 # MAGIC ## 📌 Requirements
 # MAGIC
 # MAGIC **Required Databricks Runtime Version:** 
-# MAGIC * Please note that in order to run this notebook, you must use one of the following Databricks Runtime(s): **13.2.x-cpu-ml-scala2.12**
+# MAGIC * Please note that in order to run this notebook, you must use one of the following Databricks Runtime(s): **13.1.x-cpu-ml-scala2.12**
 
 # COMMAND ----------
 
