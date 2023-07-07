@@ -40,7 +40,7 @@
 # MAGIC ## 📌 Requirements
 # MAGIC
 # MAGIC **Required Databricks Runtime Version:** 
-# MAGIC * Please note that in order to run this notebook, you must use one of the following Databricks Runtime(s): **13.2.x-cpu-ml-scala2.12**
+# MAGIC * Please note that in order to run this notebook, you must use one of the following Databricks Runtime(s): **13.1.x-cpu-ml-scala2.12**
 
 # COMMAND ----------
 
@@ -157,6 +157,7 @@ with mlflow.start_run(run_name="LR-Single-Feature") as run:
 
 from pyspark.sql.functions import col, log, exp
 import matplotlib.pyplot as plt
+from pyspark.ml.feature import RFormula
 
 with mlflow.start_run(run_name="LR-Log-Price") as run:
     # Take log of price
